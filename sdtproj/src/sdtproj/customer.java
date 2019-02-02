@@ -1,6 +1,6 @@
 package sdtproj;
 
-public class customer {
+public class customer extends userclass{
 
     String name;
     String address;
