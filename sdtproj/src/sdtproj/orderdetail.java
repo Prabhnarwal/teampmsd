@@ -1,5 +1,7 @@
 package sdtproj;
 
+import java.util.Date;
+
 public class orderdetail extends order {
 
     String productID;
@@ -7,4 +9,9 @@ public class orderdetail extends order {
     int quantitiy;
     double unitCost;
     double total;
+
+    public orderdetail(int theID, String pass, Date rdate) {
+        super(theID, pass, rdate);
+    }
+
 }
