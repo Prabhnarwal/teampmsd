@@ -2,14 +2,13 @@ package sdtproj;
 
 import java.util.Date;
 
-public class administrator extends userclass {
+public class administrator {
 
-    String userID;
+    int userID;
     String email;
 
-    public administrator(int theID, String pass, Date rdate) {
-        super(theID, pass, rdate);
-    }
+       
+    
  
        void setUserID(int aID)
     {
@@ -21,8 +20,9 @@ public class administrator extends userclass {
     }
 public administrator(int aID,String aEmail)
 {
-    email=aEmail;
-    userID=aID;
+   
+     userID=aID;
+     email=aEmail;
     }
 int getID()
 {
