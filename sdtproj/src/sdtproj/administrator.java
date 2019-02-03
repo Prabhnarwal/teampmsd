@@ -10,9 +10,7 @@ public class administrator extends userclass {
     public administrator(int theID, String pass, Date rdate) {
         super(theID, pass, rdate);
     }
-
-  
-    }
+ 
        void setUserID(int aID)
     {
         aID=userID;
