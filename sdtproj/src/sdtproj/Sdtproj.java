@@ -34,6 +34,12 @@ public class Sdtproj {
         dt.setunitCost(98.7);
         System.out.println(dt.getproductID() + " " + dt.getproductName() + " " + dt.getquantity()+" "+dt.gettotal()+" "+dt.getunitCost());
         dt.display1("2A", "pr2", 13, 86.4, 65.4);
+        
+        administrator ad=new administrator(2,"hello",1,"aaa",tempdate);
+        ad.setUserID(6);
+        ad.setEmail("abc@gmail.com");
+        System.out.println(ad.getID() + " " + ad.getEmail());
+        ad.Display(4, "ghi@gmail.com");
     }
     
 }
