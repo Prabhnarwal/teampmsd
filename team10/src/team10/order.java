@@ -6,11 +6,11 @@ public class order {
 
     Date date;
     String status;
-    
-   
+
+    customer c = new customer();
 
     public void calcSubTotal() {
-            System.out.println("calculate Sub total");
+        System.out.println("calculate Sub total");
     }
 
     public void calcTax() {
