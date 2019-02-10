@@ -2,7 +2,7 @@
 package team10;
 
 public class OrderDetail {
-    Integar quantity;
+    int quantity;
     
     String taxstatus;
     
