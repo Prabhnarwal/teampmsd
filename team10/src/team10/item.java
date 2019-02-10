@@ -1,15 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package team10;
 
-/**
- *
- * @author 1894994
- */
 public class item {
+
     float shippingWeight;
     String description;
+
+    public void getPriceForQuantitiy() {
+        System.out.println("Get price for quantity");
+    }
+
+    public void getTax() {
+        System.out.println("Get Tax");
+    }
+
+    public void getStock() {
+        System.out.println("Get Stock");
+    }
 }
